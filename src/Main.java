@@ -37,5 +37,44 @@ public class Main {
         }
 
 
+        // Домашнее задание 3
+        System.out.println("Задание 1");
+        int ageOld = 15;
+        if(ageOld > 1 && ageOld < 7) {
+            System.out.println("Если возраст человека равен " + ageOld + ", то ему нужно ходить в детский садик");
+        } else if(ageOld > 6 && ageOld < 18) {
+            System.out.println("Если возраст человека равен " + ageOld + ", то ему нужно ходить в школу");
+        } else if(ageOld > 17 && ageOld < 25) {
+            System.out.println("Если возраст человека равен " + ageOld + ", то его место в университете");
+        } else if(ageOld > 24) {
+            System.out.println("Если возраст человека равен " + ageOld + ", то ему пора ходить на работу");
+        }
+
+        System.out.println("Задание 2");
+        int childAge = 13;
+        if(childAge < 5) {
+            System.out.println("Если ребенку " + childAge + ", то он не может кататься на аттракционе");
+        } else if(childAge > 4 && childAge < 14) {
+            System.out.println ("Если ребенку " + childAge + ", то он может кататься только в сопровождении взрослого");
+        } else if(childAge > 13) {
+            System.out.println ("Если ребенку " + childAge + ", то он может кататься без сопровождения взрослого");
+        }
+
+        System.out.println("Задание 3");
+
+        int one = 3;
+        int two = 5;
+        int three = 10;
+        if(one > two && one > three) {
+            System.out.println(one + " больше чем, " + two + " и " + three);
+        } else if(two > one && two > three) {
+            System.out.println(two + " больше чем, " + one + " и " + three);
+        } else if(three > one && three > two) {
+            System.out.println(three + " больше чем, " + one + " и " + two);
+        } else if(one == two && two == three && three == one) {
+            System.out.println("Все числа равны");
+        }
+
+
     }
 }
